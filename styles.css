@@ -1,0 +1,123 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header{
+    width: 100%;
+    background-color: #fdf9f1;
+    max-width: 1500px;
+
+}
+
+h1 {
+    font-size: 50px;
+    text-align: left;
+    margin-right: auto;
+    padding-left: 5%;
+    font-family: Arial;
+    color: black;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: right;
+    margin: 0 10px;
+    font-family: Arial;
+    color: black;
+    
+}
+
+.banner {
+    text-align: center;
+    display: flex;
+    padding-right: 5%;
+
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+.portrait{
+    margin: 0 auto;
+    display:block;
+    width: 40%;
+    height: auto;
+    clip-path: polygon(0 0, 100% 0, 100% 98%, 0 100%);
+    position: relative; 
+    top: -350px;
+    max-width: 40%;
+    position: relative; 
+    
+
+}
+
+.bodyText {
+    font-size: 40px;
+    font-family: serif;
+    margin: 0;
+    padding-left: 10%;
+    padding-top: 20%;
+}
+
+.aspiring{
+    text-align: center;
+    margin: 0;
+    font-family: serif;
+    font-size: 40px;
+    bottom: 500px;
+    padding-right: 10%;
+    top: calc(50% + 50px);
+    position: absolute;
+    left: calc(50% + 20%);
+
+}
+
+.software{
+    text-align: right;
+    margin: 0;
+    font-family: serif;
+    font-size: 40px;
+    bottom: 500px;
+    padding-right: 5%;
+    top: calc(50% + 150px);
+    position: absolute;
+    left: calc(55% + 20%);
+
+}
+
+.codingHeading {
+    padding-top: 50px;
+    
+}
+
+.questions {
+    text-align: right;
+    
+    right: 20px; 
+    transform: translateY(-50%);
+    padding-right: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    padding-top: 50px;
+
+
+}
+
+p.answers, ul.answers, li.answers, .answers {
+    text-align: left;
+    max-width: 1200px;
+    padding-left: 50px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    paddn
+
+}
